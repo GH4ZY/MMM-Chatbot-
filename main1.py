@@ -53,7 +53,7 @@ retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={"k
 
 
 # Set your Google API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAzoSiVqamIZZ6aAhO28m5KzpK3p8o1zj8" # Replace with your actual API key
+os.environ["GOOGLE_API_KEY"] = "" # Replace with your actual API key
 
 # Initialize the Gemini model
 llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash-exp-image-generation", temperature=0.5)
